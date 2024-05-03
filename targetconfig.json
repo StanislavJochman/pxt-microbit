@@ -1,17 +1,22 @@
 {
     "packages": {
         "approvedRepoLib": {
+            "stanislavjochman/pxt-iot-environment-kit-sk":{
+                "tags": [ "Science", "Bruselská" ],
+                "preferred": true
+
+            },
             "microsoft/pxt-neopixel": {
                 "tags": [ "Lights and Display" ],
-                "preferred": true
+                "preferred": false
             },
             "microsoft/pxt-microturtle": {
                 "tags": [ "Software" ],
-                "preferred": true
+                "preferred": false
             },
             "microsoft/pxt-sonar": {
                 "tags": [ "Science" ],
-                "preferred": true
+                "preferred": false
             },
             "microsoft/pxt-bluetooth-temperature-sensor": {
                 "tags": [ "Science" ],
@@ -33,11 +38,11 @@
             "microsoft/pxt-ml": {},
             "kitronikltd/pxt-kitronik-servo-lite": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "kitronikltd/pxt-kitronik-motor-driver": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "kitronikltd/pxt-kitronik-i2c-16-servo": { "tags": [ "Robotics" ] },
             "kitronikltd/pxt-kitronik-stopbit": { "tags": [ "Robotics" ] },
@@ -58,17 +63,17 @@
             "adafruit/pxt-seesaw": { "tags": [ "Science" ] },
             "seeed-studio/pxt-grove": {
                 "tags": [ "Science" ],
-                "preferred": true
+                "preferred": false
             },
             "seeed-studio/pxt-grove-zero-for-microbit": {},
             "tinkertanker/pxt-ir-receiver": {},
             "tinkertanker/pxt-iot-environment-kit": {
-                "preferred": true,
+                "preferred": false,
                 "upgrades": [ "min:v4.2.1" ]
             },
             "tinkertanker/pxt-motorbit": {},
             "tinkertanker/pxt-realtimeclock-ds1307": {},
-            "tinkertanker/pxt-tinkercademy-tinker-kit": { "preferred": true },
+            "tinkertanker/pxt-tinkercademy-tinker-kit": { "preferred": false },
             "tinkertanker/pxt-rotary-encoder-ky040": {
                 "tags": [ "Science" ],
                 "upgrades": [ "min:v1.2.1" ]
@@ -79,9 +84,9 @@
             "tinkertanker/pxt-continuous-servo": {},
             "tinkertanker/pxt-joystickbit": {},
             "tinkertanker/pxt-robit": {},
-            "tinkertanker/pxt-smarthome": { "preferred": true },
+            "tinkertanker/pxt-smarthome": { "preferred": false },
             "tinkertanker/microdriver_sht2x": { "upgrades": [ "min:v1.0.0" ] },
-            "tinkertanker/pxt-ringbitcar": { "preferred": true },
+            "tinkertanker/pxt-ringbitcar": { "preferred": false },
             "tinkertanker/udriver_pca9585": { "upgrades": [ "dv:mbcodal" ] },
             "tinkertanker/pxt-alphanumeric-ht16k33": { "upgrades": [ "min:v1.1.0" ] },
             "tinkertanker/pxt-stepper-motor": { "tags": [ "Robotics" ] },
@@ -117,7 +122,7 @@
             },
             "kittenbot/pxt-robotbit": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "pizayanz/pxt-linebeacon": {
                 "tags": [ "Software" ],
@@ -126,7 +131,7 @@
             "sunfounder/pxt-sloth": { "tags": [ "Robotics" ] },
             "4tronix/bitbot": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "pimoroni/pxt-scrollbit": {
                 "tags": [ "Lights and Display" ],
@@ -210,7 +215,7 @@
             "beyond-coding-tw/pxt-nexusbot": { "tags": [ "Robotics" ] },
             "elecfreaks/pxt-cutebot": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "kitronikltd/pxt-kitronik-fischertechnik": { "tags": [ "Robotics" ] },
             "keigan-motor/pxt-keiganmotor": { "tags": [ "Robotics" ] },
@@ -255,7 +260,7 @@
             "4tronix/servobit": { "tags": [ "Robotics" ] },
             "dfrobot/pxt-maqueen": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "dfrobot/pxt-dfrobot-microiot": { "tags": [ "Networking" ] },
             "mu-opensource/pxt-muvision": {
@@ -290,7 +295,7 @@
             },
             "dfrobot/pxt-dfrobot-maqueenplus": {
                 "tags": [ "Robotics" ],
-                "preferred": true
+                "preferred": false
             },
             "dfrobot/pxt-dfrobot_maqueenplus_v20": {
                 "tags": [ "Robotics" ]
@@ -449,7 +454,7 @@
             "joy-it/pxt-rb-joypi-advanced": { "tags": [ "Science" ] },
             "bsiever/pxt-sen55": { "tags": [ "Science" ] },
             "climate-action-kits/pxt-fwd-edu": {},
-            "elecfreaks/pxt-cutebot-pro": { "tags": [ "Robotics" ], "preferred": true },
+            "elecfreaks/pxt-cutebot-pro": { "tags": [ "Robotics" ], "preferred": false },
             "microbit-foundation/makecode-tutorials": {},
             "grandpabond/pxt-meter": { "tags": [ "Software" ] },
             "microsoft/microbit-robot": { "tags": [ "Robotics" ] },
